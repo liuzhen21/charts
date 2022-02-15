@@ -3,7 +3,7 @@ entries:
   auth:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-14T18:31:23.5899871+08:00"
+    created: "2022-02-15T16:45:04.8212683+08:00"
     description: A Helm chart for Kubernetes
     digest: d4218bbee11caaf156f2219000664a28581c6dc4bba1f1438a244d69ad093d08
     name: auth
@@ -13,8 +13,18 @@ entries:
     version: 0.1.0
   core:
   - apiVersion: v2
+    appVersion: 0.4.0
+    created: "2022-02-15T16:45:04.8631856+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 041cd342d8eb0a03d80979ea93a1b784ac5353988071345c5ba0cb0e9548ae6f
+    name: core
+    type: application
+    urls:
+    - https://wuxs.github.io/helm-charts/core-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
     appVersion: 0.3.0
-    created: "2022-02-14T18:31:23.6089174+08:00"
+    created: "2022-02-15T16:45:04.8598302+08:00"
     description: A Helm chart for Kubernetes
     digest: 8a4db45b49ef4706f5c938b42a048827396eb26be26a6134d28afd803bd12a94
     name: core
@@ -24,7 +34,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2022-02-14T18:31:23.608164+08:00"
+    created: "2022-02-15T16:45:04.8568844+08:00"
     dependencies:
     - name: etcd
       repository: ""
@@ -39,7 +49,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-14T18:31:23.5905861+08:00"
+    created: "2022-02-15T16:45:04.8256244+08:00"
     description: A Helm chart for Kubernetes
     digest: 7d1b2d4e8d0f8511a6573386391cefc82fe6833bec0ef81f1f2c0066fb6ba3bf
     name: core
@@ -50,7 +60,7 @@ entries:
   core-broker:
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2022-02-14T18:31:23.6096754+08:00"
+    created: "2022-02-15T16:45:04.8669647+08:00"
     description: A Helm chart for Kubernetes
     digest: f090ed6c7265b400f9215ed2a13ca5e8ec5d0c9aa86e5c1faa5de73138b157eb
     name: core-broker
@@ -61,7 +71,7 @@ entries:
   hello-tkeel:
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2022-02-14T18:31:23.610704+08:00"
+    created: "2022-02-15T16:45:04.8684014+08:00"
     description: A Helm chart for Kubernetes
     digest: ee7c854ae0803f2f57aeeb3a9dd79f305b39ab9480e5ddda5cc9b1e94274f922
     name: hello-tkeel
@@ -72,7 +82,7 @@ entries:
   iothub:
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2022-02-14T18:31:23.6230281+08:00"
+    created: "2022-02-15T16:45:04.8843328+08:00"
     dependencies:
     - name: emqx
       repository: ""
@@ -85,7 +95,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-14T18:31:23.6202526+08:00"
+    created: "2022-02-15T16:45:04.8781697+08:00"
     dependencies:
     - name: emqx
       repository: ""
@@ -98,7 +108,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-14T18:31:23.616821+08:00"
+    created: "2022-02-15T16:45:04.8732581+08:00"
     dependencies:
     - name: emqx
       repository: ""
@@ -111,8 +121,18 @@ entries:
     version: 0.1.0
   keel:
   - apiVersion: v2
+    appVersion: 0.4.0
+    created: "2022-02-15T16:45:04.8920366+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 434457a61f9554bf0c05c4bd168e8aebd3b0019bffc12d7f031f06d592772a8b
+    name: keel
+    type: application
+    urls:
+    - https://wuxs.github.io/helm-charts/keel-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
     appVersion: 0.3.0
-    created: "2022-02-14T18:31:23.625572+08:00"
+    created: "2022-02-15T16:45:04.8903888+08:00"
     description: A Helm chart for Kubernetes
     digest: a881a3a6d76f0816e104cad79d8b68b65e80147da77a813650efebc0aa8b05d8
     name: keel
@@ -122,7 +142,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2022-02-14T18:31:23.6246549+08:00"
+    created: "2022-02-15T16:45:04.8889349+08:00"
     description: A Helm chart for Kubernetes
     digest: 6775a4ed830b73ac4fbc3dc569889831d98662f2413ed0d40385d8abde412ad6
     name: keel
@@ -132,7 +152,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-14T18:31:23.6238643+08:00"
+    created: "2022-02-15T16:45:04.8857919+08:00"
     description: A Helm chart for Kubernetes
     digest: f3a438e969a277329881cab93e4b98bdcd05786d42333648e73917f8c338ecd7
     name: keel
@@ -143,7 +163,7 @@ entries:
   keel-echo:
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2022-02-14T18:31:23.6276412+08:00"
+    created: "2022-02-15T16:45:04.89776+08:00"
     description: A Helm chart for Kubernetes
     digest: 329b03d816279bb48f59aa05091a1aaf9889feb1f834248a975e190b2bc901ca
     name: keel-echo
@@ -153,7 +173,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2022-02-14T18:31:23.62644+08:00"
+    created: "2022-02-15T16:45:04.8940664+08:00"
     description: A Helm chart for Kubernetes
     digest: a74d779ea1d1ed23f4f1792d4131ccbb7cac7e98768fe23a82201408c82a3685
     name: keel-echo
@@ -164,7 +184,7 @@ entries:
   middleware:
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2022-02-14T18:31:23.6567107+08:00"
+    created: "2022-02-15T16:45:04.9396313+08:00"
     dependencies:
     - name: redis
       repository: ""
@@ -188,7 +208,7 @@ entries:
   plugins:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-14T18:31:23.6573838+08:00"
+    created: "2022-02-15T16:45:04.940872+08:00"
     description: A Helm chart for Kubernetes
     digest: dacf09efa342e7e0e823ed85fd7e34fddcdaf41cd47e624b40869852d1986ad3
     name: plugins
@@ -198,8 +218,18 @@ entries:
     version: 0.1.0
   rudder:
   - apiVersion: v2
+    appVersion: 0.4.0
+    created: "2022-02-15T16:45:04.9442649+08:00"
+    description: A Helm chart for Kubernetes
+    digest: e88b0204805e53fef9a059408179fca4269ca6fe9994f40dabf6df58d49d8982
+    name: rudder
+    type: application
+    urls:
+    - https://wuxs.github.io/helm-charts/rudder-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
     appVersion: 0.3.0
-    created: "2022-02-14T18:31:23.6585496+08:00"
+    created: "2022-02-15T16:45:04.9426105+08:00"
     description: A Helm chart for Kubernetes
     digest: 35b5b7d22e766aced586d7fe163f64a910292f5f54ae4db9eecef251845a87cc
     name: rudder
@@ -209,7 +239,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2022-02-14T18:31:23.6579824+08:00"
+    created: "2022-02-15T16:45:04.9418964+08:00"
     description: A Helm chart for Kubernetes
     digest: 1c87953f984bcaa203d2def4c49446da78929aff92b487bbb7a48902b41d39ab
     name: rudder
@@ -220,7 +250,7 @@ entries:
   tkeel-device:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-14T18:31:23.6600527+08:00"
+    created: "2022-02-15T16:45:04.9467541+08:00"
     description: A Helm chart for Kubernetes
     digest: 56ca393df4ce7ac1a4731139861c59a4082c3770eac1d1251ad6db5d2fef3f28
     name: tkeel-device
@@ -230,7 +260,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-14T18:31:23.6592378+08:00"
+    created: "2022-02-15T16:45:04.9453566+08:00"
     description: A Helm chart for Kubernetes
     digest: fcbadd2292f383d5286449ccf31cd7cf783588e3eafaaffb0d1fcfbdc3ca1f27
     name: tkeel-device
@@ -240,8 +270,31 @@ entries:
     version: 0.2.0
   tkeel-middleware:
   - apiVersion: v2
+    appVersion: 0.4.0
+    created: "2022-02-15T16:45:05.075053+08:00"
+    dependencies:
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 15.3.2
+    - name: mysql
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.8.12
+    - name: etcd
+      repository: https://charts.bitnami.com/bitnami
+      version: 6.10.4
+    - name: elasticsearch
+      repository: https://charts.bitnami.com/bitnami
+      version: 17.8.0
+    description: A Helm chart for tKeel middleware
+    digest: b27bcc35449d13d85c60fbdff851e2ff1847b8b9483562b6435ce1c452c5d69a
+    name: tkeel-middleware
+    type: application
+    urls:
+    - https://wuxs.github.io/helm-charts/tkeel-middleware-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
     appVersion: 0.3.0
-    created: "2022-02-14T18:31:23.7435616+08:00"
+    created: "2022-02-15T16:45:05.0479834+08:00"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
@@ -264,7 +317,7 @@ entries:
     version: 0.3.2
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2022-02-14T18:31:23.7177896+08:00"
+    created: "2022-02-15T16:45:05.0272349+08:00"
     dependencies:
     - name: redis
       repository: ""
@@ -287,7 +340,7 @@ entries:
     version: 0.3.1
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2022-02-14T18:31:23.6988192+08:00"
+    created: "2022-02-15T16:45:05.0040614+08:00"
     dependencies:
     - name: redis
       repository: ""
@@ -310,7 +363,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2022-02-14T18:31:23.6813993+08:00"
+    created: "2022-02-15T16:45:04.9791407+08:00"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
@@ -327,7 +380,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-14T18:31:23.6680866+08:00"
+    created: "2022-02-15T16:45:04.9555436+08:00"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
@@ -342,7 +395,7 @@ entries:
   tkeel-plugin-components:
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2022-02-14T18:31:23.7498346+08:00"
+    created: "2022-02-15T16:45:05.0770499+08:00"
     description: A Helm chart for Kubernetes
     digest: 2d8d4e91eb3bd9616fa0bbd773928fe653d1e10ad6a887f237922a421c30a3aa
     name: tkeel-plugin-components
@@ -352,7 +405,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2022-02-14T18:31:23.7488969+08:00"
+    created: "2022-02-15T16:45:05.0763619+08:00"
     description: A Helm chart for Kubernetes
     digest: 9ead592d8e808122bd3bf821df525a65a09fff571daec67eeb1ddd6b0a880167
     name: tkeel-plugin-components
@@ -362,7 +415,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-14T18:31:23.746631+08:00"
+    created: "2022-02-15T16:45:05.0757446+08:00"
     description: A Helm chart for Kubernetes
     digest: bd51850d88b63e9aeef0e90ec57373aab4da1405acd14728abbf54dd797af8a0
     name: tkeel-plugin-components
@@ -370,4 +423,4 @@ entries:
     urls:
     - https://wuxs.github.io/helm-charts/tkeel-plugin-components-0.1.0.tgz
     version: 0.1.0
-generated: "2022-02-14T18:31:23.5884346+08:00"
+generated: "2022-02-15T16:45:04.8158244+08:00"
